@@ -1,4 +1,4 @@
-# QuizApplication
+# Quiz Application
 Quiz App with Interactive U.I made using Kotlin
 
 ![Quiz App Intro Mohammed Mustafa Ali, Android Developer, Hyderabad,India](https://user-images.githubusercontent.com/94534652/197815066-07550810-2cf1-4a12-b58d-45fa9a2ec68c.jpg)
