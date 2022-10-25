@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsActivity"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_margin="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/grp"
+        />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marvelous"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/redbluegradi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_weight="1"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@color/redbluegradi"
+            android:max="10"
+            android:minHeight="10dp"
+            android:outlineSpotShadowColor="@color/redbluegradi"
+            android:progress="2"
+            android:padding="20dp"
+            android:progressDrawable="@drawable/prgbr_bg"/>
+
+        <TextView
+            android:id="@+id/question_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="0/10"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="OPTION A"
+        android:textSize="18sp"
+        android:id="@+id/option_One"
+        android:textColor="@color/black"
+        android:textFontWeight="10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/default_option_bg"
+        />
+
+    <TextView
+        android:text="OPTION B"
+        android:id="@+id/option_Two"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textFontWeight="10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/default_option_bg"
+        />
+
+    <TextView
+        android:text="OPTION C"
+        android:id="@+id/option_Three"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textFontWeight="10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/default_option_bg"
+        />
+
+    <TextView
+        android:text="OPTION D"
+        android:id="@+id/option_Four"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textFontWeight="10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:background="@drawable/default_option_bg"
+        />
+
+    <Button
+        android:id="@+id/Submit_Button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
